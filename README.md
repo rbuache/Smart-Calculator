@@ -1,5 +1,7 @@
 # Smart-Calculator
 
+##Buache Raphael & Frohlich Magali
+
 ## Welcome
 
 A repository for the Smart Calculator Lab, for the [RES course](https://github.com/wasadigi/Teaching-HEIGVD-RES) taught at the HEIG-VD.
