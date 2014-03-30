@@ -11,7 +11,7 @@ This specification describes the protocol used by Smart Calculators to discover 
 
 Smart Calculators don't know addresses of Compute Engine when starting and a new compute engine can be added in the network dynamicaly. This protocol allows calulators to access a compute engine without knowing it in advance.
 
-To achieve this goal, Smart Calculators are listening messages from Compute Engines. In the other hand, Compute Engines send periodically a message to announce their availability. This message is sent in broadcast mode and has two goals. First, it gives the address of the Compute Engine, second, it gives information about the Compute Engine. So, the registers of reachable Compute Engines on Smart Calculators are always up to date.
+To achieve this goal, Smart Calculators are listening messages from Compute Engines. In the other hand, Compute Engines send periodically a message to announce their availability. This message is sent in broadcast mode and has two goals. First, it gives the address of the Compute Engine, second, it gives information about the Compute Engine (label and privacy). So, the registers of reachable Compute Engines on Smart Calculators are always up to date.
 
 ----------
 
